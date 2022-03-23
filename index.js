@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/Data')
+fetch('https://web0a.herokuapp.com/Data')
   .then(response => response.json())
   .then(json => {
       var RH=document.getElementById('RH')
